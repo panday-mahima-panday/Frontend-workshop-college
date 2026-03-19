@@ -1,2 +1,2 @@
 ##output
-[!output](YNOVA.png)
+![output](YNOVA.png)
