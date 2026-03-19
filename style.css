@@ -1,0 +1,307 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:Arial, sans-serif;
+}
+
+/* Header */
+
+.site{
+display:flex;
+align-items:center;
+justify-content:space-between;
+background-color:white;
+padding:10px 20px;
+height: 70px;
+
+}
+
+.navbar{
+display:flex;
+align-items:center;
+gap:100px;
+}
+
+.navbar a{
+text-decoration:none;
+color:rgb(10, 10, 10);
+font-weight:bold;
+transition:color 0.3s;
+}
+
+.navbar a:hover{
+color:#FFD700;
+}
+
+/* Logo */
+
+.logo img{
+height:40px;
+width:40px;
+border-radius:5px;
+}
+
+/* Main Section */
+/* ===left-section === */
+#btn1{
+font-size:1rem;
+color:rgb(229, 228, 213);
+background-color:#ff8c27db;
+border-radius:25px;
+width:230px;
+height:45px;
+padding:6px 15px;
+border:none;
+cursor:pointer;
+margin-top: 40px ;
+margin-left:50px;
+margin-bottom: 10px;
+
+}
+/* .button-container{
+display: flex;
+gap: 10px;
+width:700px;
+align-items: center;
+justify-content: center;
+border: 1px solid black;
+margin-bottom: 0px;
+} */
+#btn2{
+font-size:1rem;
+color:rgb(227, 214, 24);
+background-color:#b85804db;
+border-radius:10px;
+margin-bottom: 20px;
+margin-top: 100px;
+margin-left: 45px;
+padding:6px 15px;
+width:250px;
+height:55px;
+
+border:none;
+cursor:pointer;
+}
+#btn3{
+font-size:1rem;
+color:rgb(25, 25, 23);
+background-color:#faf6f3db;
+border-radius:10px;
+width:200px;
+height:55px;
+
+margin-bottom: 20px;
+margin-top: 100px;
+margin-left: 30px;
+padding:6px 15px;
+border:none;
+cursor:pointer;
+border: 1px solid black;
+}
+
+.text-content{
+font-size:5rem;
+height: 100px;
+margin-top: 30px;
+padding-left: 40px;
+color: #0c046c;
+}
+.text-content span{
+color: #d58204;
+}
+.text-content-small{
+  margin-top: 120px;
+  margin-left: 30px;
+font-size:1.2rem;
+padding-left: 20px;
+height: 50px;
+width: 700px;
+}
+.big{
+  display: flex;
+  justify-content: space-around;
+}
+.left-container{
+  height: 600px;
+  width: 50%;
+
+   border-radius: 5px;
+}
+.right-container{
+  height: 600px;
+  width: 45%;
+     border-radius: 20px;
+}
+.box-big{
+  height: 250px;
+  width: 600px;
+  margin-top: 55px;
+  margin-left: 50px ;
+  padding: 20px 60px;
+  align-items: center;
+  
+   border-radius: 10px;
+   background-color: #210d39;
+   color: rgb(197, 189, 189);
+}
+.box-big span{
+color: #ab864f;
+}
+.small-container{
+  display: flex;
+   gap:12px;
+   width: 100%;
+
+}
+#test{
+  margin-bottom: 20px;
+}
+#test2{
+  margin-bottom: 20px;
+}
+
+.box-small1{
+  height: 200px;
+  width: 300px;
+   padding: 20px 80px;
+   margin-top: 40px;
+  margin-left: 50px ;
+  
+   border-radius: 10px;
+   background-color: #d58204;
+   color: seashell;
+}
+.box-small2{
+  border-radius: 10px;
+  height:200px;
+  width: 300px;
+   padding: 20px 50px 30px 50px;
+   margin-top: 40px;
+  margin-left: 10px ;
+  border: .0002px solid black;
+    background-color:white;
+    color: rgb(22, 21, 21);
+}
+.title{
+align-items: center;
+padding-top: 3rem;
+
+
+}
+/* ===right registration */
+#name,#email,#password,#confirm-password,#phone{
+  margin-bottom: 1rem;
+  width: 13rem;
+  height: 1.5rem;
+}
+
+.registration-right,.registration-left{
+  padding: 2rem 1rem;
+}
+#regis{
+ align-items: center;
+ margin-top: 10px;
+ margin-left: 60px;
+}
+#button{
+font-size:1rem;
+color:rgb(226, 226, 227);
+background-color:#1234cd;
+border-radius:25px;
+width:150px;
+height:30px;
+
+margin-left: 25px;
+margin-top: 15px;
+padding:2px 15px;
+border:none;
+cursor:pointer;
+}
+#button:hover{
+color:rgb(255, 0, 136);
+background-color: rgb(124, 8, 80);
+}
+
+
+.container2,.container3{
+  width:60%;
+  min-height: 80%;
+  border:1px solid black;
+   border-radius: 5px;
+  
+}
+
+main{
+display:flex;
+flex-direction: column;
+align-items:center;
+justify-content:center;
+}
+
+.container{
+  
+display: flex;
+justify-content:space-between;
+align-items: center;
+height:40vw;
+width: 40vw;
+border:1px solid black;
+margin-top: 4rem;
+margin-bottom: 4rem;
+margin-left: 4rem;
+margin-right: 4rem;
+padding-left: 2rem;
+padding-right: 2rem;
+gap:3rem;
+border-radius: 5px;
+ visibility: hidden;
+
+
+}
+
+/* Button */
+
+#btn{
+font-size:1.2rem;
+color:rgb(227, 214, 24);
+background-color:#b85804db;
+border-radius:25px;
+width:200px;
+height:40px;
+padding:6px 15px;
+border:none;
+cursor:pointer;
+}
+
+#btn:hover{
+color:red;
+}
+
+/* Footer */
+
+footer{
+background-color:#111;
+color:white;
+text-align:center;
+padding:20px 0;
+margin-top:40px;
+}
+
+footer a{
+color:white;
+text-decoration:none;
+margin:0 5px;
+}
+
+footer a:hover{
+color:#FFD700;
+}
+
+.footer-container{
+height:100px;
+text-align:center;
+}
