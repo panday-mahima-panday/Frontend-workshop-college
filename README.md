@@ -1,6 +1,6 @@
 ##output
 ![output](YNOVA.png)
-# Ynova Website Clone
+# Rynova Website Clone
 
 This project is a clone of the Ynova website created during a college workshop.
 
